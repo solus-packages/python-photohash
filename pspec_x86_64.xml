@@ -1,0 +1,46 @@
+<PISI>
+    <Source>
+        <Name>python-photohash</Name>
+        <Packager>
+            <Name>Stig Svensson</Name>
+            <Email>stigarn@protonmail.ch</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">A perceptual hash algorithm, used to find if two images are similar.</Summary>
+        <Description xml:lang="en">A perceptual hash algorithm, used to find if two images are similar.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-photohash</Name>
+        <Summary xml:lang="en">A perceptual hash algorithm, used to find if two images are similar.</Summary>
+        <Description xml:lang="en">A perceptual hash algorithm, used to find if two images are similar.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Photohash-0.4.1-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Photohash-0.4.1-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Photohash-0.4.1-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Photohash-0.4.1-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Photohash-0.4.1-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/__pycache__/photohash.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/photohash.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/tests/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/tests/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/tests/__pycache__/test_photohash.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/photohash/tests/test_photohash.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-02-02</Date>
+            <Version>0.4.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Stig Svensson</Name>
+            <Email>stigarn@protonmail.ch</Email>
+        </Update>
+    </History>
+</PISI>
