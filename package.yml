@@ -1,6 +1,6 @@
 name       : python-photohash
 version    : 0.4.1
-release    : 1
+release    : 2
 source     :
     - https://pypi.python.org/packages/cc/ac/37fb0c9d9bf94854d087a9808a5d952308897ab2dc64430f8eac1c2f7dd7/Photohash-0.4.1.tar.gz : 2338cd2c6fba9a099b423c54c556491122d46a70cbf08bc517b8d88f2c708635
 license    : MIT
